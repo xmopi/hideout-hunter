@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "name": "Hideout Hunter",
   "description": "Lets you know if a map you entered spawned a hideout.",
-  "author": "mopi",
+  "author": "xmopi",
   "homepage": "https://github.com/xmopi/hideout-hunter",
   "scalpelMinVersion": "0.9.13",
   "poeVersions": [1]
