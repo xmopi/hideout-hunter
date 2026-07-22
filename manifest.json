@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "hideout-hunter",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "name": "Hideout Hunter",
   "description": "Lets you know if a map you entered spawned a hideout.",
   "author": "xmopi",
