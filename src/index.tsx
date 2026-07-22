@@ -10,7 +10,7 @@ const styles = {
     },
     flex: {
         display: 'flex',
-        alignItems: 'center', 
+        alignItems: 'center',
         justifyContent: 'space-between',
     },
     header: {
@@ -61,7 +61,7 @@ function Section({ label, value }: { label: string; value: string; }): JSX.Eleme
 function Hideout({ isHideout }: { isHideout: boolean; }): JSX.Element {
     const hideoutStyle = {
         ...styles.cardValue,
-        color: isHideout ? 'var(--match)' : 'var(--danger)',
+        color: isHideout ? 'var(--match, #4caf50)' : 'var(--danger, #ef5350)',
     }
 
     return (
@@ -98,7 +98,7 @@ function isHideoutSpawned(ctx: ScalpelPluginContext): boolean {
                 setIsHideout(false)
                 return
             }
-            
+
             if (line.includes('Spawning discoverable Hideout')) {
                 setIsHideout(true)
             }
